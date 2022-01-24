@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <div class="col-3 ">
+      <img [src]="productItem.imageUrl" class="border py-2 rounded" alt="">
+      <div class="ms-3 mt-2">
+        <button class="btn btn-primary" (click)="addCart()">Add to cart</button>&nbsp;
+        <button class="btn btn-primary">Add to wishlist</button>
+      </div>
+    </div>
+    <div class="col-6 offset-2">
+      <ul class="list-group">
+        <li class="list-group-item py-3">Name  -  <strong>{{productItem.name}}</strong></li>
+        <li class="list-group-item py-3">Seller  -  <strong>{{productItem.seller}}</strong></li>
+        <li class="list-group-item py-3">Category  -  <strong>{{productItem.category}}</strong></li>
+        <li class="list-group-item py-3">Price  -  <strong>{{productItem.price}}</strong></li>
+        <li class="list-group-item py-3">Added  -  <strong>{{productItem.added|date:'dd-mm-yyyy'}}</strong></li>
+        <li class="list-group-item py-3">Description  -  <strong>{{productItem.description}}</strong></li>
+      </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<div class="row mx-2">
+    <div class="col-md-3" *ngFor="let item of ProductsList">
+      <a routerLink="/productItem/{{item.id}}">
+        <div class="card mb-3 border border-secondary ">
+          <img [src]="item.imageUrl" class="img-thumbnail"  alt="">
+          <div class="card-footer border border-secondary bg-secondary text-white">
+            <h3>{{item.name}}</h3>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+

@@ -1,0 +1,16 @@
+<div class="container ">
+  <div class="d-flex justify-content-center bg-secondary text-white py-3 mb-5 border rounded">
+    <div class=" ms-5">
+     <h1>Ecommerece WebPage for Demo Purpose</h1>
+    </div>
+     <div class="ms-auto mt-3 me-3" >
+       <button class="btn btn-primary" *ngIf="varify()" (click)="cart()"  >Cart</button>
+       <button class=" btn btn-danger ms-auto" *ngIf="varify()" (click)="logout()" >SignOut</button>
+     </div>
+   </div>
+</div>
+
+
+
+<router-outlet></router-outlet>
+

@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "name": "Shahrukh",
+      "email": "sk899@gmail.com",
+      "mobile": "9822129031",
+      "fee": "120000",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "JACK",
+      "email": "jack232@gmail.com",
+      "mobile": "9812981298",
+      "fee": "120000"
+    },
+    {
+      "name": "Hussain",
+      "email": "huss233@gmail.com",
+      "mobile": "7017074227",
+      "fee": "120000",
+      "id": 7
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
